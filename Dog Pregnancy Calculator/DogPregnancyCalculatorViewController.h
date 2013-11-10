@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface DogPregnancyCalculatorViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
+- (IBAction)calculateDueDateBtn:(id)sender;
 
 @end
